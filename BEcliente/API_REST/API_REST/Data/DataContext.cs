@@ -13,7 +13,7 @@ namespace API_REST.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(connectionString: @"Data Source=NICK-PC;Initial Catalog=BP4Challenge; Integrated Security=True; TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer(connectionString: @"Data Source=MICA;Initial Catalog=BP4Challenge; Integrated Security=True; TrustServerCertificate=True;");
             //Integrated Security=True; TrustServerCertificate=True;
         }
 
