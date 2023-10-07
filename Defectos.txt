@@ -1,0 +1,10 @@
+Defectos:
+- En el campo "Birthday" especificamente en la seleccion o ingreso de año se puede cargar dos espacios adicionales al año, ejemplo se puede colocar 202300.
+- En el campo cuil se debe proporcionar un maximo de numeros posibles ingresados. por ejemplo el cuil debe contener al menos 12 numeros.
+- El campo "Address" no debe contener caracteres especiales, solo tipo alfabeto y alfa numericos. Con un maximo de 20 caracteres.
+-El campo "Telphone number" no debe contener caracteres especiales, solo tipo alfanumericos.Con un maximo de 15 caracteres.
+-El sistema debe vaciar los campos requeridos para un nuevo usuario una vez se haya registrado un cliente.
+
+
+
+
